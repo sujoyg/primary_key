@@ -1,0 +1,9 @@
+= Primary Key
+
+Adds an add_primary_key method to Rails migrations.
+
+This can be used as follows:
+
+`add_primary_key table, [col, col]`
+
+Make sure to add an `id: false` option to the `create_table` declaration.
