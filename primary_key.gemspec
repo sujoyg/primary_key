@@ -16,13 +16,13 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{config,lib}/**/*"] + ["MIT-LICENSE", "README.rdoc"]
 
-  s.add_dependency "rails", "~> 4.1.6"
+  s.add_dependency "rails", "~> 4.1"
 
   s.add_development_dependency "factory_girl_rails", "~> 4.0"
-  s.add_development_dependency "rspec-rails"
-  s.add_development_dependency "specstar-controllers", "~> 0.0.5"
-  s.add_development_dependency "specstar-models", "~> 0.0.6"
-  s.add_development_dependency "specstar-support-random", "~> 0.0.1"
-  s.add_development_dependency "sqlite3"
-  s.add_development_dependency "webrat"
+  s.add_development_dependency "rspec-rails", "~> 3.1"
+  s.add_development_dependency "specstar-controllers", "~> 0.0"
+  s.add_development_dependency "specstar-models", "~> 0.2"
+  s.add_development_dependency "specstar-support-random", "~> 0.1"
+  s.add_development_dependency "sqlite3", "~> 1.3"
+  s.add_development_dependency "webrat", "~> 0.7"
 end
